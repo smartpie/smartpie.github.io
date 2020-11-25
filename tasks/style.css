@@ -1,4 +1,6 @@
-
+html {
+    font-family: 'Castoro', serif;
+}
 
 .justify-text {
     text-align: justify;
