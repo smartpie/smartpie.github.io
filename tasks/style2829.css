@@ -1,0 +1,59 @@
+html {
+    font-family: 'Castoro', serif;
+}
+
+body {
+    margin: 0 auto;
+    background: rgb(31, 31, 31);
+    color: rgb(228, 228, 228);
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.formula-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.definition {
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    -webkit-box-shadow: 0px 0px 21px -4px rgba(255, 255, 255, 0.32);
+    -moz-box-shadow: 0px 0px 21px -4px rgba(255, 255, 255, 0.32);
+    box-shadow: 0px 0px 21px -4px rgba(255, 255, 255, 0.32);
+}
+
+footer {
+    color: rgb(134, 134, 134);
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    margin-top: 20px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #d8d8d8 33%, #73787e 66%, #899ebe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+}
