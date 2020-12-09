@@ -26,6 +26,7 @@ body {
 
 h1 {
     margin-top: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -43,17 +44,4 @@ footer {
     padding: 20px;
     background-color: rgb(22, 22, 22);
     margin-top: 20px;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
-.gradient-text {
-  font-family: 'Rubik One', sans-serif;
-  font-size: 50px;
-  text-transform: uppercase;
-  background: linear-gradient(45deg, #d8d8d8 33%, #73787e 66%, #899ebe);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #0B2349;
-  display: table;
-  margin: 20px auto;
 }
