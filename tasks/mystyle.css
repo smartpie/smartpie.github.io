@@ -1,17 +1,44 @@
-body{
+html {
+    font-family: 'Castoro', serif;
+}
+
+body {
+	margin: 0 auto;
 	background-image: url("images/back.jpg");
+	color: #dadada;
+}
+
+p {
+	font-size: 17px;
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	border-radius: 3px;
+}
+
+.wrapper {
+	flex-wrap: wrap;
+	padding: 22px;
+	padding-top: 10px;
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #28282e;
+}
+
+.name {
+	font-weight: 700;
 	color: #ffffff;
 }
-.name{
-	font: bold italic;
-	color: #00FFFF;
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
-img{
-	margin: 10px;
-}
-img.left{
-	float: left;
-}
-img.right{
-	float: right;
+
+.container > div {
+	padding: 10px;
 }
