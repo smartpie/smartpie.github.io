@@ -1,0 +1,87 @@
+/*
+Palette
+#FFFCF2
+#CCC5B9
+#403D39
+#252422
+#EB5E28
+*/
+
+
+/* ___________________________________Main shit___________________________________ */
+body {
+    background-color: #e5e5e5;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer, .content {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+
+/* ___________________________________Header shit___________________________________ */
+header {
+    background-color: #14213d;
+}
+
+.header-wrapper {
+    padding: 30px;
+    background-color: #14213d;
+    display: flex;
+    color: #e5e5e5;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-wrapper nav {
+
+}
+
+.header-wrapper nav ul {
+    margin: 0;
+    margin-top: 16px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.header-wrapper nav ul li {
+    margin-right: 26px;
+    cursor: pointer;
+}
+
+.header-wrapper nav ul li:hover {
+    font-weight: 100;
+}
+
+.header-wrapper h1 {
+    flex: 1 1 1000px;
+    padding: 0px 13px;
+    margin: 0;
+    color: #e5e5e5;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+
+
+/* ___________________________________Content shit___________________________________ */
+.content {
+    height: 1080px;
+}
+
+
+
+/* ___________________________________Footer shit___________________________________ */
+footer {
+    background-color: #252422;
+    margin: 0 auto;
+    color: #e5e5e5;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+}
